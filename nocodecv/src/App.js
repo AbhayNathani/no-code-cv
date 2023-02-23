@@ -1,8 +1,8 @@
 
 import './App.css';
-import { BallTriangle } from 'react-loader-spinner' ;
+import { BallTriangle } from 'react-loader-spinner';
 import { useCallback } from 'react';
-import ReactFlow,{
+import ReactFlow, {
   Mindmap,
   Controls,
   Background,
@@ -46,12 +46,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
-        <BallTriangle/>
+
+        <BallTriangle />
         <h1> Welcome To Abhi's Lab</h1>
-       <div id="flow"></div>
-       </header>
-       
+        <div id="flow"></div>
+      </header>
+
     </div>
   );
 }
